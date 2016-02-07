@@ -7,7 +7,8 @@
 //
 
 import UIKit
+import ExampleViewModel
 
 public final class ImageSearchTableViewController: UITableView {
-    
+    public var viewModel: ImageSearchTableViewModeling?
 }

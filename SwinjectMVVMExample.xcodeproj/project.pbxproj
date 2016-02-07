@@ -15,9 +15,17 @@
 		CE0F097D1C65087C00D0F706 /* NetworkSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0F097B1C65083E00D0F706 /* NetworkSpec.swift */; };
 		CE3C3DAC1C64E02600EA466D /* ResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C3DAB1C64E02600EA466D /* ResponseEntity.swift */; };
 		CE3C3DB41C64FBCB00EA466D /* ResponseEntitySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C3DB31C64FBCB00EA466D /* ResponseEntitySpec.swift */; };
+		CE5F9B241C67CF8F00BFA548 /* ImageSearching.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5F9B231C67CF8F00BFA548 /* ImageSearching.swift */; };
+		CE5F9B261C67CFCB00BFA548 /* ImageSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5F9B251C67CFCB00BFA548 /* ImageSearch.swift */; };
+		CE5F9B281C67D0CD00BFA548 /* Pixabay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5F9B271C67D0CD00BFA548 /* Pixabay.swift */; };
+		CE5F9B2B1C67D6BE00BFA548 /* ImageSearchSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5F9B291C67D27700BFA548 /* ImageSearchSpec.swift */; };
 		CE9CE9ED1C67960C007AD454 /* ImageSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9CE9EC1C67960C007AD454 /* ImageSearchTableViewCell.swift */; };
 		CE9CE9EF1C679666007AD454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9CE9EE1C679666007AD454 /* Main.storyboard */; };
 		CE9CE9F11C6799A3007AD454 /* ImageSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9CE9F01C6799A3007AD454 /* ImageSearchTableViewController.swift */; };
+		CE9CE9F31C679DD5007AD454 /* ImageSearchTableViewModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9CE9F21C679DD5007AD454 /* ImageSearchTableViewModeling.swift */; };
+		CE9CE9F51C679E0C007AD454 /* ImageSearchTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9CE9F41C679E0C007AD454 /* ImageSearchTableViewModel.swift */; };
+		CE9CE9F71C679E6E007AD454 /* ImageSearchTableViewCellModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9CE9F61C679E6E007AD454 /* ImageSearchTableViewCellModeling.swift */; };
+		CE9CE9F91C679E8F007AD454 /* ImageSearchTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9CE9F81C679E8F007AD454 /* ImageSearchTableViewCellModel.swift */; };
 		CEAEC8BA1C63AA1B006F5738 /* ExampleViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED364591C62AE79004B7CA8 /* ExampleViewModel.framework */; };
 		CEAEC8BD1C63AA35006F5738 /* ExampleModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED364361C62AE4E004B7CA8 /* ExampleModel.framework */; };
 		CEAEC8BE1C63AAC7006F5738 /* ExampleModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED364361C62AE4E004B7CA8 /* ExampleModel.framework */; };
@@ -263,9 +271,17 @@
 		CE3C3DAD1C64E1ED00EA466D /* Dummy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
 		CE3C3DAF1C64E2FA00EA466D /* ImageEntitySpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageEntitySpec.swift; sourceTree = "<group>"; };
 		CE3C3DB31C64FBCB00EA466D /* ResponseEntitySpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseEntitySpec.swift; sourceTree = "<group>"; };
+		CE5F9B231C67CF8F00BFA548 /* ImageSearching.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearching.swift; sourceTree = "<group>"; };
+		CE5F9B251C67CFCB00BFA548 /* ImageSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearch.swift; sourceTree = "<group>"; };
+		CE5F9B271C67D0CD00BFA548 /* Pixabay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pixabay.swift; sourceTree = "<group>"; };
+		CE5F9B291C67D27700BFA548 /* ImageSearchSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchSpec.swift; sourceTree = "<group>"; };
 		CE9CE9EC1C67960C007AD454 /* ImageSearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewCell.swift; sourceTree = "<group>"; };
-		CE9CE9EE1C679666007AD454 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CE9CE9EE1C679666007AD454 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../ExampleView/Main.storyboard; sourceTree = "<group>"; };
 		CE9CE9F01C6799A3007AD454 /* ImageSearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewController.swift; sourceTree = "<group>"; };
+		CE9CE9F21C679DD5007AD454 /* ImageSearchTableViewModeling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewModeling.swift; sourceTree = "<group>"; };
+		CE9CE9F41C679E0C007AD454 /* ImageSearchTableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewModel.swift; sourceTree = "<group>"; };
+		CE9CE9F61C679E6E007AD454 /* ImageSearchTableViewCellModeling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewCellModeling.swift; sourceTree = "<group>"; };
+		CE9CE9F81C679E8F007AD454 /* ImageSearchTableViewCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewCellModel.swift; sourceTree = "<group>"; };
 		CEAEC8C31C63B306006F5738 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		CEAEC8C41C63B306006F5738 /* Himotoki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Himotoki.framework; path = Carthage/Build/iOS/Himotoki.framework; sourceTree = "<group>"; };
 		CEAEC8C51C63B306006F5738 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
@@ -463,6 +479,7 @@
 		CED364101C62ADF4004B7CA8 /* SwinjectMVVMExample */ = {
 			isa = PBXGroup;
 			children = (
+				CE9CE9EE1C679666007AD454 /* Main.storyboard */,
 				CED364111C62ADF4004B7CA8 /* AppDelegate.swift */,
 				CED364181C62ADF4004B7CA8 /* Assets.xcassets */,
 				CED3641A1C62ADF4004B7CA8 /* LaunchScreen.storyboard */,
@@ -490,6 +507,9 @@
 				CE0F09731C65001000D0F706 /* Networking.swift */,
 				CE0F09751C65007B00D0F706 /* Network.swift */,
 				CE0F09771C65030100D0F706 /* NetworkError.swift */,
+				CE5F9B231C67CF8F00BFA548 /* ImageSearching.swift */,
+				CE5F9B251C67CFCB00BFA548 /* ImageSearch.swift */,
+				CE5F9B271C67D0CD00BFA548 /* Pixabay.swift */,
 			);
 			path = ExampleModel;
 			sourceTree = "<group>";
@@ -503,6 +523,7 @@
 				CE3C3DAF1C64E2FA00EA466D /* ImageEntitySpec.swift */,
 				CE3C3DB31C64FBCB00EA466D /* ResponseEntitySpec.swift */,
 				CE0F097B1C65083E00D0F706 /* NetworkSpec.swift */,
+				CE5F9B291C67D27700BFA548 /* ImageSearchSpec.swift */,
 			);
 			path = ExampleModelTests;
 			sourceTree = "<group>";
@@ -512,6 +533,10 @@
 			children = (
 				CED3645B1C62AE79004B7CA8 /* ExampleViewModel.h */,
 				CED3645D1C62AE79004B7CA8 /* Info.plist */,
+				CE9CE9F21C679DD5007AD454 /* ImageSearchTableViewModeling.swift */,
+				CE9CE9F41C679E0C007AD454 /* ImageSearchTableViewModel.swift */,
+				CE9CE9F61C679E6E007AD454 /* ImageSearchTableViewCellModeling.swift */,
+				CE9CE9F81C679E8F007AD454 /* ImageSearchTableViewCellModel.swift */,
 			);
 			path = ExampleViewModel;
 			sourceTree = "<group>";
@@ -531,7 +556,6 @@
 				CED3647D1C62AE9F004B7CA8 /* ExampleView.h */,
 				CED3647F1C62AE9F004B7CA8 /* Info.plist */,
 				CE9CE9EC1C67960C007AD454 /* ImageSearchTableViewCell.swift */,
-				CE9CE9EE1C679666007AD454 /* Main.storyboard */,
 				CE9CE9F01C6799A3007AD454 /* ImageSearchTableViewController.swift */,
 			);
 			path = ExampleView;
@@ -912,10 +936,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5F9B261C67CFCB00BFA548 /* ImageSearch.swift in Sources */,
+				CE5F9B241C67CF8F00BFA548 /* ImageSearching.swift in Sources */,
 				CE0F09741C65001000D0F706 /* Networking.swift in Sources */,
 				CEAEC90D1C64D67B006F5738 /* ExampleModel.swift in Sources */,
 				CE0F09761C65007B00D0F706 /* Network.swift in Sources */,
 				CE3C3DAC1C64E02600EA466D /* ResponseEntity.swift in Sources */,
+				CE5F9B281C67D0CD00BFA548 /* Pixabay.swift in Sources */,
 				CE0F09781C65030100D0F706 /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -928,6 +955,7 @@
 				CED364471C62AE4E004B7CA8 /* ExampleModelTests.swift in Sources */,
 				CE0F09721C64FE2800D0F706 /* Dummy.swift in Sources */,
 				CE0F09711C64FE2100D0F706 /* ImageEntitySpec.swift in Sources */,
+				CE5F9B2B1C67D6BE00BFA548 /* ImageSearchSpec.swift in Sources */,
 				CE0F097D1C65087C00D0F706 /* NetworkSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -936,6 +964,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9CE9F31C679DD5007AD454 /* ImageSearchTableViewModeling.swift in Sources */,
+				CE9CE9F51C679E0C007AD454 /* ImageSearchTableViewModel.swift in Sources */,
+				CE9CE9F71C679E6E007AD454 /* ImageSearchTableViewCellModeling.swift in Sources */,
+				CE9CE9F91C679E8F007AD454 /* ImageSearchTableViewCellModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1255,6 +1287,7 @@
 		CED364711C62AE7A004B7CA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1270,6 +1303,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.award.SwinjectMVVMExample.ExampleViewModel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1279,6 +1313,7 @@
 		CED364721C62AE7A004B7CA8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
