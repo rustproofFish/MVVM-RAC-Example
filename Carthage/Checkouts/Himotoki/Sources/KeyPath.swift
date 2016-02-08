@@ -29,20 +29,25 @@ extension KeyPath: CustomStringConvertible {
 }
 
 extension KeyPath: StringLiteralConvertible {
-    public init(unicodeScalarLiteral value: String) {
+    public typealias UnicodeScalarLiteralType = StringLiteralType
+    public typealias ExtendedGraphemeClusterLiteralType = StringLiteralType
+
+    public init(unicodeScalarLiteral value: UnicodeScalarLiteralType) {
         self.init(value)
     }
 
-    public init(extendedGraphemeClusterLiteral value: String) {
+    public init(extendedGraphemeClusterLiteral value: ExtendedGraphemeClusterLiteralType) {
         self.init(value)
     }
 
-    public init(stringLiteral value: String) {
+    public init(stringLiteral value: StringLiteralType) {
         self.init(value)
     }
 }
 
 extension KeyPath: ArrayLiteralConvertible {
+    public typealias Element = String
+
     public init(arrayLiteral elements: String...) {
         self.init(elements)
     }

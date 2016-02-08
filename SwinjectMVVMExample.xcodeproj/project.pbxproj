@@ -84,10 +84,10 @@
 		CEAEC9091C63CA19006F5738 /* Result.framework.dSYM in Copy Files (7 items) */ = {isa = PBXBuildFile; fileRef = CEAEC9021C63CA19006F5738 /* Result.framework.dSYM */; };
 		CEAEC90A1C63CA19006F5738 /* Swinject.framework.dSYM in Copy Files (7 items) */ = {isa = PBXBuildFile; fileRef = CEAEC9031C63CA19006F5738 /* Swinject.framework.dSYM */; };
 		CEAEC90D1C64D67B006F5738 /* ExampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEC90C1C64D67B006F5738 /* ExampleModel.swift */; };
+		CEBDD1551C67DBD70048F3C4 /* AooDelegateSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBDD1531C67DB7E0048F3C4 /* AooDelegateSpec.swift */; };
 		CED364121C62ADF4004B7CA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED364111C62ADF4004B7CA8 /* AppDelegate.swift */; };
 		CED364191C62ADF4004B7CA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED364181C62ADF4004B7CA8 /* Assets.xcassets */; };
 		CED3641C1C62ADF4004B7CA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED3641A1C62ADF4004B7CA8 /* LaunchScreen.storyboard */; };
-		CED364271C62ADF4004B7CA8 /* SwinjectMVVMExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED364261C62ADF4004B7CA8 /* SwinjectMVVMExampleTests.swift */; };
 		CED364391C62AE4E004B7CA8 /* ExampleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CED364381C62AE4E004B7CA8 /* ExampleModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CED364401C62AE4E004B7CA8 /* ExampleModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED364361C62AE4E004B7CA8 /* ExampleModel.framework */; };
 		CED364471C62AE4E004B7CA8 /* ExampleModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED364461C62AE4E004B7CA8 /* ExampleModelTests.swift */; };
@@ -297,13 +297,13 @@
 		CEAEC9021C63CA19006F5738 /* Result.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Result.framework.dSYM; path = Carthage/Build/iOS/Result.framework.dSYM; sourceTree = "<group>"; };
 		CEAEC9031C63CA19006F5738 /* Swinject.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Swinject.framework.dSYM; path = Carthage/Build/iOS/Swinject.framework.dSYM; sourceTree = "<group>"; };
 		CEAEC90C1C64D67B006F5738 /* ExampleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleModel.swift; sourceTree = "<group>"; };
+		CEBDD1531C67DB7E0048F3C4 /* AooDelegateSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AooDelegateSpec.swift; sourceTree = "<group>"; };
 		CED3640E1C62ADF4004B7CA8 /* SwinjectMVVMExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwinjectMVVMExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED364111C62ADF4004B7CA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CED364181C62ADF4004B7CA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED3641B1C62ADF4004B7CA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CED3641D1C62ADF4004B7CA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CED364221C62ADF4004B7CA8 /* SwinjectMVVMExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwinjectMVVMExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CED364261C62ADF4004B7CA8 /* SwinjectMVVMExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectMVVMExampleTests.swift; sourceTree = "<group>"; };
 		CED364281C62ADF4004B7CA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CED364361C62AE4E004B7CA8 /* ExampleModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED364381C62AE4E004B7CA8 /* ExampleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleModel.h; sourceTree = "<group>"; };
@@ -491,8 +491,8 @@
 		CED364251C62ADF4004B7CA8 /* SwinjectMVVMExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				CED364261C62ADF4004B7CA8 /* SwinjectMVVMExampleTests.swift */,
 				CED364281C62ADF4004B7CA8 /* Info.plist */,
+				CEBDD1531C67DB7E0048F3C4 /* AooDelegateSpec.swift */,
 			);
 			path = SwinjectMVVMExampleTests;
 			sourceTree = "<group>";
@@ -928,7 +928,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED364271C62ADF4004B7CA8 /* SwinjectMVVMExampleTests.swift in Sources */,
+				CEBDD1551C67DBD70048F3C4 /* AooDelegateSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

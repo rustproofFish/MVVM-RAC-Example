@@ -18,7 +18,7 @@ public struct Extractor {
     }
 
     private func rawValue(keyPath: KeyPath) throws -> AnyObject? {
-        guard isDictionary else {
+        if !isDictionary {
             throw typeMismatch("Dictionary", actual: rawValue, keyPath: keyPath)
         }
 
@@ -95,15 +95,22 @@ extension Extractor: CustomStringConvertible {
 //
 // `ArraySlice` is used for performance optimization.
 // See https://gist.github.com/norio-nomura/d9ec7212f2cfde3fb662.
-private func valueFor<C: CollectionType where C.Generator.Element == String, C.SubSequence == C>(keyPathComponents: C, _ object: AnyObject) -> AnyObject? {
-    guard let first = keyPathComponents.first, case let nested?? = object[first] where !(nested is NSNull) else {
+private func valueFor(keyPathComponents: ArraySlice<String>, _ object: AnyObject) -> AnyObject? {
+    guard let first = keyPathComponents.first else {
         return nil
     }
 
-    if keyPathComponents.count == 1 {
-        return nested
+    // This type annotation is necessary to select intended `subscript` method.
+    guard case let nested?? = object[first] else {
+        return nil
     }
 
-    let tail = keyPathComponents.dropFirst()
-    return valueFor(tail, nested)
+    if nested is NSNull {
+        return nil
+    } else if keyPathComponents.count > 1 {
+        let tail = keyPathComponents.dropFirst()
+        return valueFor(tail, nested)
+    } else {
+        return nested
+    }
 }

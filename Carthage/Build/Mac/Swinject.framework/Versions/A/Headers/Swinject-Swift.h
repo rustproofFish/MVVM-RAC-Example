@@ -139,9 +139,9 @@ SWIFT_PROTOCOL("_TtP8Swinject22SwinjectStoryboardType_")
 
 
 
-/// The SwinjectStoryboard provides the features defined by its super class NSStoryboard, with dependencies of view or window controllers injected.
+/// The SwinjectStoryboard provides the features to inject dependencies of view/window controllers in a storyboard.
 ///
-/// To specify a registration name of a view or window controller registered to the <code>Container
+/// To specify a registration name of a view/window controller registered to the <code>Container
 /// </code> as a service type,
 /// add a user defined runtime attribute with the following settings:
 ///
@@ -156,11 +156,11 @@ SWIFT_CLASS("_TtC8Swinject18SwinjectStoryboard")
 /// Do NOT call this method explicitly. It is designed to be called by the runtime.
 + (void)initialize;
 
-/// Instantiates the view or window controller with the specified identifier. The view or window controller and its child controllers have their dependencies injected as specified in the Container passed to the initializer of the SwinjectStoryboard.
+/// Instantiates the view/Window controller with the specified identifier. The view/window controller and its child controllers have their dependencies injected as specified in the Container passed to the initializer of the SwinjectStoryboard.
 ///
 /// \param identifier The identifier set in the storyboard file.
 ///
-/// \returns  The instantiated view or window controller with its dependencies injected.
+/// \returns  The instantiated view/window controller with its dependencies injected.
 - (id __nonnull)instantiateControllerWithIdentifier:(NSString * __nonnull)identifier;
 @end
 

@@ -9,6 +9,6 @@
 import UIKit
 import ExampleViewModel
 
-public final class ImageSearchTableViewController: UITableView {
+public final class ImageSearchTableViewController: UITableViewController {
     public var viewModel: ImageSearchTableViewModeling?
 }

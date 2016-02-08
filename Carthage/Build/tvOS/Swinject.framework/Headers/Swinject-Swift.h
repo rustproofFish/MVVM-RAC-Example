@@ -125,9 +125,9 @@ SWIFT_PROTOCOL("_TtP8Swinject22SwinjectStoryboardType_")
 @class UIViewController;
 
 
-/// The SwinjectStoryboard provides the features defined by its super class UIStoryboard, with dependencies of view controllers injected.
+/// The SwinjectStoryboard provides the features to inject dependencies of view/window controllers in a storyboard.
 ///
-/// To specify a registration name of a view controller registered to the <code>Container
+/// To specify a registration name of a view/window controller registered to the <code>Container
 /// </code> as a service type,
 /// add a user defined runtime attribute with the following settings:
 ///

@@ -19,8 +19,5 @@ DerivedData
 *.ipa
 *.xcuserstate
 
-# SPM
-.build/
-
 # Carthage
 Carthage/Build
