@@ -29,7 +29,7 @@ public struct ImageEntity {
     public let downloadCount: Int64
     public let likeCount: Int64
     public let tags: [String]
-    public let user: String
+    public let username: String
 }
 
 
@@ -62,7 +62,7 @@ extension ImageEntity: Decodable {
             downloadCount: e <| "downloads",
             likeCount: e <| "likes",
             tags: (try? e <| "tags").map(splitCSV) ?? [],
-            user: e <| "user"
+            username: e <| "user"
         )
     }
 }

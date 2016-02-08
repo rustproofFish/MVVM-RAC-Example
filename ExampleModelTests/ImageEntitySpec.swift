@@ -33,7 +33,7 @@ class ImageEntitySpec: QuickSpec {
             expect(image?.downloadCount) == 4321
             expect(image?.likeCount) == 321
             expect(image?.tags) == ["a", "b c", "d"]
-            expect(image?.user) == "Swinject"
+            expect(image?.username) == "Swinject"
         }
         
         it("gets an emoty arrat uf tags element is nil.") {

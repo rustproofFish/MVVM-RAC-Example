@@ -6,8 +6,9 @@
 //  Copyright © 2016 Adrian Ward. All rights reserved.
 //
 
-import Foundation
+import ReactiveCocoa
 
 public protocol ImageSearchTableViewModeling {
-    
+    var cellModels: AnyProperty<[ImageSearchTableViewCellModeling]> { get }
+    func startSearch()
 }
