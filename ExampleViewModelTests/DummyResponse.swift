@@ -44,3 +44,10 @@ let dummyResponse: ResponseEntity = {
         username: "User1")
     return ResponseEntity(totalCount: 123, images: [image0, image1])
 }()
+
+let image1x1: UIImage = {
+    UIGraphicsBeginImageContextWithOptions(CGSizeMake(1, 1), true, 0)
+    let image = UIGraphicsGetImageFromCurrentImageContext()
+    UIGraphicsEndImageContext()
+    return image
+}()

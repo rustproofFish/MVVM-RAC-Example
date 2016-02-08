@@ -17,6 +17,7 @@
 		CE1179321C68FD7900648B23 /* ImageSearchTableViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1179311C68FD7900648B23 /* ImageSearchTableViewModelSpec.swift */; };
 		CE1179341C6900DC00648B23 /* ImageSearchTableViewCellModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1179331C6900DC00648B23 /* ImageSearchTableViewCellModelSpec.swift */; };
 		CE1179361C692B9D00648B23 /* ImageSearchTableViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1179351C692B9D00648B23 /* ImageSearchTableViewControllerSpec.swift */; };
+		CE1179381C69390F00648B23 /* RACUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1179371C69390F00648B23 /* RACUtil.swift */; };
 		CE3C3DAC1C64E02600EA466D /* ResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C3DAB1C64E02600EA466D /* ResponseEntity.swift */; };
 		CE3C3DB41C64FBCB00EA466D /* ResponseEntitySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C3DB31C64FBCB00EA466D /* ResponseEntitySpec.swift */; };
 		CE5F9B241C67CF8F00BFA548 /* ImageSearching.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5F9B231C67CF8F00BFA548 /* ImageSearching.swift */; };
@@ -275,6 +276,7 @@
 		CE1179311C68FD7900648B23 /* ImageSearchTableViewModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewModelSpec.swift; sourceTree = "<group>"; };
 		CE1179331C6900DC00648B23 /* ImageSearchTableViewCellModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewCellModelSpec.swift; sourceTree = "<group>"; };
 		CE1179351C692B9D00648B23 /* ImageSearchTableViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewControllerSpec.swift; sourceTree = "<group>"; };
+		CE1179371C69390F00648B23 /* RACUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RACUtil.swift; sourceTree = "<group>"; };
 		CE3C3DAB1C64E02600EA466D /* ResponseEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseEntity.swift; sourceTree = "<group>"; };
 		CE3C3DAD1C64E1ED00EA466D /* Dummy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
 		CE3C3DAF1C64E2FA00EA466D /* ImageEntitySpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageEntitySpec.swift; sourceTree = "<group>"; };
@@ -545,6 +547,7 @@
 				CE9CE9F41C679E0C007AD454 /* ImageSearchTableViewModel.swift */,
 				CE9CE9F61C679E6E007AD454 /* ImageSearchTableViewCellModeling.swift */,
 				CE9CE9F81C679E8F007AD454 /* ImageSearchTableViewCellModel.swift */,
+				CE1179371C69390F00648B23 /* RACUtil.swift */,
 			);
 			path = ExampleViewModel;
 			sourceTree = "<group>";
@@ -978,6 +981,7 @@
 			files = (
 				CE9CE9F31C679DD5007AD454 /* ImageSearchTableViewModeling.swift in Sources */,
 				CE9CE9F51C679E0C007AD454 /* ImageSearchTableViewModel.swift in Sources */,
+				CE1179381C69390F00648B23 /* RACUtil.swift in Sources */,
 				CE9CE9F71C679E6E007AD454 /* ImageSearchTableViewCellModeling.swift in Sources */,
 				CE9CE9F91C679E8F007AD454 /* ImageSearchTableViewCellModel.swift in Sources */,
 			);

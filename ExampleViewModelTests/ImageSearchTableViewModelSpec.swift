@@ -25,12 +25,40 @@ class ImageSearchTableViewModelSpec: QuickSpec {
         }
     }
     
+    
+    class StubNetwork: Networking {
+        func requestJSON(url: String, parameters: [String : AnyObject]?) ->
+            SignalProducer<AnyObject, NetworkError> {
+                return SignalProducer.empty
+        }
+        
+        func requestImage(url: String) -> SignalProducer<UIImage, NetworkError> {
+            return SignalProducer(value: image1x1).observeOn(QueueScheduler())
+        }
+    }
+    
+    
+    class ErrorStubNetwork: Networking {
+        func requestJSON(url: String, parameters: [String : AnyObject]?) ->
+            SignalProducer<AnyObject, NetworkError> {
+                return SignalProducer.empty
+        }
+        
+        func requestImage(url: String) -> SignalProducer<UIImage, NetworkError> {
+            return SignalProducer(error: .NotConnectedToInternet)
+        }
+    }
+    
+    
     // MARK: Spec
     override func spec() {
         var viewModel: ImageSearchTableViewModel!
         beforeEach {
-            viewModel = ImageSearchTableViewModel(imageSearch: StubImageSearch())
+            viewModel = ImageSearchTableViewModel(
+                imageSearch: StubImageSearch(),
+                network: StubNetwork())
         }
+        
         
         it("eventually sets cellModels property after the search.") {
             var cellModels: [ImageSearchTableViewCellModeling]? = nil
