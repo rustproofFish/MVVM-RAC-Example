@@ -18,12 +18,14 @@
 		CE1179341C6900DC00648B23 /* ImageSearchTableViewCellModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1179331C6900DC00648B23 /* ImageSearchTableViewCellModelSpec.swift */; };
 		CE1179361C692B9D00648B23 /* ImageSearchTableViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1179351C692B9D00648B23 /* ImageSearchTableViewControllerSpec.swift */; };
 		CE1179381C69390F00648B23 /* RACUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1179371C69390F00648B23 /* RACUtil.swift */; };
+		CE1E912F1C6CFB23003BDBAD /* ImageSearchTableViewCellSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1E912E1C6CFB23003BDBAD /* ImageSearchTableViewCellSpec.swift */; };
 		CE3C3DAC1C64E02600EA466D /* ResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C3DAB1C64E02600EA466D /* ResponseEntity.swift */; };
 		CE3C3DB41C64FBCB00EA466D /* ResponseEntitySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C3DB31C64FBCB00EA466D /* ResponseEntitySpec.swift */; };
 		CE5F9B241C67CF8F00BFA548 /* ImageSearching.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5F9B231C67CF8F00BFA548 /* ImageSearching.swift */; };
 		CE5F9B261C67CFCB00BFA548 /* ImageSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5F9B251C67CFCB00BFA548 /* ImageSearch.swift */; };
 		CE5F9B281C67D0CD00BFA548 /* Pixabay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5F9B271C67D0CD00BFA548 /* Pixabay.swift */; };
 		CE5F9B2B1C67D6BE00BFA548 /* ImageSearchSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5F9B291C67D27700BFA548 /* ImageSearchSpec.swift */; };
+		CE8DC12F1C6CF53A0094DE86 /* RACUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8DC12E1C6CF53A0094DE86 /* RACUtil.swift */; };
 		CE9CE9ED1C67960C007AD454 /* ImageSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9CE9EC1C67960C007AD454 /* ImageSearchTableViewCell.swift */; };
 		CE9CE9EF1C679666007AD454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9CE9EE1C679666007AD454 /* Main.storyboard */; };
 		CE9CE9F11C6799A3007AD454 /* ImageSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9CE9F01C6799A3007AD454 /* ImageSearchTableViewController.swift */; };
@@ -277,6 +279,7 @@
 		CE1179331C6900DC00648B23 /* ImageSearchTableViewCellModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewCellModelSpec.swift; sourceTree = "<group>"; };
 		CE1179351C692B9D00648B23 /* ImageSearchTableViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewControllerSpec.swift; sourceTree = "<group>"; };
 		CE1179371C69390F00648B23 /* RACUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RACUtil.swift; sourceTree = "<group>"; };
+		CE1E912E1C6CFB23003BDBAD /* ImageSearchTableViewCellSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewCellSpec.swift; sourceTree = "<group>"; };
 		CE3C3DAB1C64E02600EA466D /* ResponseEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseEntity.swift; sourceTree = "<group>"; };
 		CE3C3DAD1C64E1ED00EA466D /* Dummy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
 		CE3C3DAF1C64E2FA00EA466D /* ImageEntitySpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageEntitySpec.swift; sourceTree = "<group>"; };
@@ -285,6 +288,7 @@
 		CE5F9B251C67CFCB00BFA548 /* ImageSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearch.swift; sourceTree = "<group>"; };
 		CE5F9B271C67D0CD00BFA548 /* Pixabay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pixabay.swift; sourceTree = "<group>"; };
 		CE5F9B291C67D27700BFA548 /* ImageSearchSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchSpec.swift; sourceTree = "<group>"; };
+		CE8DC12E1C6CF53A0094DE86 /* RACUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RACUtil.swift; sourceTree = "<group>"; };
 		CE9CE9EC1C67960C007AD454 /* ImageSearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewCell.swift; sourceTree = "<group>"; };
 		CE9CE9EE1C679666007AD454 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../ExampleView/Main.storyboard; sourceTree = "<group>"; };
 		CE9CE9F01C6799A3007AD454 /* ImageSearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewController.swift; sourceTree = "<group>"; };
@@ -571,6 +575,7 @@
 				CED3647F1C62AE9F004B7CA8 /* Info.plist */,
 				CE9CE9EC1C67960C007AD454 /* ImageSearchTableViewCell.swift */,
 				CE9CE9F01C6799A3007AD454 /* ImageSearchTableViewController.swift */,
+				CE8DC12E1C6CF53A0094DE86 /* RACUtil.swift */,
 			);
 			path = ExampleView;
 			sourceTree = "<group>";
@@ -581,6 +586,7 @@
 				CED3648B1C62AE9F004B7CA8 /* ExampleViewTests.swift */,
 				CED3648D1C62AE9F004B7CA8 /* Info.plist */,
 				CE1179351C692B9D00648B23 /* ImageSearchTableViewControllerSpec.swift */,
+				CE1E912E1C6CFB23003BDBAD /* ImageSearchTableViewCellSpec.swift */,
 			);
 			path = ExampleViewTests;
 			sourceTree = SOURCE_ROOT;
@@ -1004,6 +1010,7 @@
 			files = (
 				CE9CE9ED1C67960C007AD454 /* ImageSearchTableViewCell.swift in Sources */,
 				CE9CE9F11C6799A3007AD454 /* ImageSearchTableViewController.swift in Sources */,
+				CE8DC12F1C6CF53A0094DE86 /* RACUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1011,6 +1018,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1E912F1C6CFB23003BDBAD /* ImageSearchTableViewCellSpec.swift in Sources */,
 				CE1179361C692B9D00648B23 /* ImageSearchTableViewControllerSpec.swift in Sources */,
 				CED3648C1C62AE9F004B7CA8 /* ExampleViewTests.swift in Sources */,
 			);

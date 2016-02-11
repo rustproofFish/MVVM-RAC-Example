@@ -38,18 +38,6 @@ class ImageSearchTableViewModelSpec: QuickSpec {
     }
     
     
-    class ErrorStubNetwork: Networking {
-        func requestJSON(url: String, parameters: [String : AnyObject]?) ->
-            SignalProducer<AnyObject, NetworkError> {
-                return SignalProducer.empty
-        }
-        
-        func requestImage(url: String) -> SignalProducer<UIImage, NetworkError> {
-            return SignalProducer(error: .NotConnectedToInternet)
-        }
-    }
-    
-    
     // MARK: Spec
     override func spec() {
         var viewModel: ImageSearchTableViewModel!

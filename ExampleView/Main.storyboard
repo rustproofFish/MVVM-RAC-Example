@@ -6,7 +6,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--Pixabay-->
         <scene sceneID="pxv-FS-5Gv">
             <objects>
                 <tableViewController storyboardIdentifier="ImageSearchTableViewController" id="Y5x-GN-YiS" customClass="ImageSearchTableViewController" customModule="ExampleView" customModuleProvider="target" sceneMemberID="viewController">
@@ -54,9 +54,9 @@
                                     </constraints>
                                     <variation key="default">
                                         <mask key="constraints">
+                                            <exclude reference="nVy-nM-0Gn"/>
                                             <exclude reference="Zc8-6W-58L"/>
                                             <exclude reference="qBo-FH-sMu"/>
-                                            <exclude reference="nVy-nM-0Gn"/>
                                         </mask>
                                     </variation>
                                 </tableViewCellContentView>
@@ -65,7 +65,7 @@
                                 </constraints>
                                 <connections>
                                     <outlet property="imageSizeLabel" destination="oK4-qI-MOU" id="8Ya-AA-huc"/>
-                                    <outlet property="previewImageView" destination="jBQ-4E-PWl" id="u3s-Dx-m5b"/>
+                                    <outlet property="previewImageView" destination="Iwg-7a-xxY" id="G4v-L7-6he"/>
                                     <outlet property="tagLabel" destination="Ryp-Jl-7ne" id="6XU-bW-txI"/>
                                 </connections>
                             </tableViewCell>
@@ -75,7 +75,7 @@
                             <outlet property="delegate" destination="Y5x-GN-YiS" id="EuU-i2-hjZ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="P0w-Sm-AZc"/>
+                    <navigationItem key="navigationItem" title="Pixabay" id="P0w-Sm-AZc"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bgm-ST-bsq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
